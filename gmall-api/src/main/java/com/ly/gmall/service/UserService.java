@@ -1,8 +1,8 @@
-package com.ly.gmall.user.service;
+package com.ly.gmall.service;
 
 
-import com.ly.gmall.user.bean.UmsMember;
-import com.ly.gmall.user.bean.UmsMemberReceiveAddress;
+import com.ly.gmall.bean.UmsMember;
+import com.ly.gmall.bean.UmsMemberReceiveAddress;
 
 import java.util.List;
 
