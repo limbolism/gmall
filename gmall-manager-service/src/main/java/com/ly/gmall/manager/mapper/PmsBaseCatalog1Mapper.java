@@ -6,6 +6,6 @@ import org.apache.ibatis.annotations.Mapper;
 import java.util.List;
 
 @Mapper
-public interface CatalogMapper {
+public interface PmsBaseCatalog1Mapper {
     List<PmsBaseCatalog1> getCatalog1();
 }

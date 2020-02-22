@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ly.gmall.manager.mapper.PmsBaseCatalog2Mapper">
+    <select id="getCatalog2" resultType="com.ly.gmall.bean.PmsBaseCatalog2">
+        select *
+        from pms_base_catalog2
+        where catalog1_id = #{catalog1Id}
+    </select>
+</mapper>
